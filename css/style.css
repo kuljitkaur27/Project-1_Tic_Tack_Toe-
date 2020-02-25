@@ -1,0 +1,19 @@
+h1{
+text-align: center;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  height:400px;
+  padding-left:40%;
+}
+.play1{
+text-align: left;
+}
+.play2{
+text-align: right;
+}
+.box{
+font-size: 30px;
+font-weight:bold;
+}
