@@ -19,19 +19,30 @@
       <button type="button" id="box8" class="box" ></button>
 
       <div >
-        <h2 class="play1"><em>Player1<br>(sign "O")</em></h2>
+        <h2 class="play1"><em>Player1</em></h2>
+          <select class="mark">
+            <option value="O" selected="selected">O</option>
+            <option value="X">X</option>
+          </select>
       </div>
+      <div >
 
-      <div>
-        <h2 class="play2"><em>Player2<br>(sign "X")</em></h2>
       </div>
-      <br>
       <div>
-        <p>
-        </p>
+        <h2 class="play2"><em>Player2</em></h2>
+        <select class="mark2">
+          <option value="O" >O</option>
+          <option value="X" selected="selected">X</option>
+        </select>
       </div>
-
   </div>
+  
+  <div class="play">
+    <p class="para">
+    </p>
+    <button class="playAgain">Play Again !</button>
+  </div>
+
   <script type="text/javascript" src="js/jQuery.js">
   </script>
   <script type="text/javascript" src="js/main.js">
