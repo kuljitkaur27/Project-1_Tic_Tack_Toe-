@@ -7,6 +7,8 @@ margin-left: 5%;
   grid-template-columns: repeat(3, 120px);
   height:400px;
   padding-left:40%;
+  padding-top :5%;
+  background-color: hsl(89, 43%, 51%);
 }
 .play1{
 text-align: left;
@@ -26,14 +28,14 @@ font-weight:bold;
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
-  margin-left: 43%;  
+  margin-left: 43%;
 }
 .mark2{
   font-size: 25px;
   margin-left: 61px;
 }
 .playAgain{
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
