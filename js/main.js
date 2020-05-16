@@ -27,6 +27,8 @@ var turn = 0; // whose turn it is (even for player 1 , odd for player 2)
 //*****************************************************************************
 
 $('.container').on('click', 'button', function () {
+
+
 //If any player wins the game stop the game
   if(roundWin == true){
     return;
@@ -36,6 +38,8 @@ $('.container').on('click', 'button', function () {
      $('p').html('2 Players cannot have the same sign .....');
      return;
   }
+  $('p').html('');
+  
 for(i=0;i<9;i++){
   if (arrBox[i].boxNo === this.id) // which box is clicked
   {
